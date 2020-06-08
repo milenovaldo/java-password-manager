@@ -12,7 +12,7 @@
 
  Clone the git:
  ```
- git clone https://github.com/milenovaldo/binus-discord-bot
+ git clone https://github.com/milenovaldo/java-password-manager
  ```
 
 ## Next steps
