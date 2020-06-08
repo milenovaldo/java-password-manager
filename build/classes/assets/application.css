@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+.root{
+-fx-background-color: gainsboro;
+-fx-font-family: 'Raleway', sans-serif;
+}
+.hbox{
+-fx-background-color: white;
+-fx-background-radius:5px;
+-fx-padding:50px;
+}
+.HomeHbox{
+-fx-background-color: white;
+-fx-background-radius:5px;
+-fx-padding:50px 500px;
+}
+.HomeBtn{
+-fx-min-height: 200px;
+-fx-min-width: 200px;
+}
+.LightGreen{
+-fx-background-color :#06425c;
+-fx-text-fill:white;
+-fx-background-radius:20px;
+-fx-alignment: center;
+-fx-font-size: 17px;
+}
+.LightGreen:hover{
+-fx-font-size:18px;
+}
+.SmallFont{
+-fx-font-size:11px;
+}
+
+
+.CenterHbox{
+-fx-max-width: 1200px;
+-fx-max-height :800px;
+}
+.WhiteTextColor{
+-fx-text-fill: white;
+}
+.BlueVbox{
+  -fx-background-radius: 50 0 0 50;
+-fx-background-color: #267dff;
+-fx-min-width: 600px;
+-fx-alignment: center;
+}
+.WhiteVbox{
+  -fx-background-radius: 0 50 50 0;
+-fx-background-color: white;
+-fx-alignment: center;
+-fx-min-width: 600px;
+-fx-padding: 150px;
+}
+.LoginBtn{
+-fx-background-color: #267dff;
+  -fx-background-radius: 100;
+  -fx-padding: 10px;
+  -fx-max-width: 250px;
+}
+.LogonBtn{
+-fx-background-color: #CCCCCC;
+  -fx-background-radius: 100;
+  -fx-padding: 10px;
+  -fx-max-width: 250px;
+}
+.EmailAddress{
+  -fx-padding: 10px;
+}
+.Password{
+  -fx-padding: 10px;
+}
+.CName{
+-fx-font-weight: bold;
+-fx-font-size: 25px;
+}
+.Hr{
+-fx-background-radius: 500;
+}
+.LoginHeading{
+-fx-font-size: 40px;
+-fx-font-weight:bold;
+-fx-font-family:'Back to Black Bold Demo';
+-fx-text-fill:darkgrey;
+-fx-font-style:italic;
+}
