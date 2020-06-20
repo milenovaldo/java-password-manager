@@ -53,7 +53,7 @@ public class Driver extends Application {
         // This will create textfield of email
         TextField Email = new TextField();
         // Setting hint text
-        Email.setPromptText("Email Address");
+        Email.setPromptText("Username");
         // Applying styles on email field
         Email.getStyleClass().add("EmailAddress");
 
@@ -125,7 +125,7 @@ public class Driver extends Application {
                     // Setting red color for error
                     Status.setFill(Color.RED);
                     // Showing error msg
-                    Status.setText("Invalid email or password");
+                    Status.setText("Invalid username or password");
                 }
 
             } catch (SQLException e1) {
