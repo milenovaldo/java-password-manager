@@ -159,7 +159,7 @@ public class Driver extends Application {
 
         // Adding company information description
         Label CDesc = new Label("This is a password manager for\n" + "Milo\'s BINUS project."
-                + "Hi, sir Jude!\n");
+                + " Hi, sir Jude!\n");
 
         // Creating right login box
         VBox LoginBox = new VBox();

@@ -30,11 +30,11 @@ public class AddUsers {
         TableView<Users> UsersTable = new TableView<Users>(DataList);
 
         // Creating table column
-        TableColumn<Users, String> FirstName = new TableColumn<Users, String>("First Name");
+        TableColumn<Users, String> FirstName = new TableColumn<Users, String>("Username");
         // Creating table column
-        TableColumn<Users, String> LastName = new TableColumn<Users, String>("Last Name");
+        TableColumn<Users, String> LastName = new TableColumn<Users, String>("Full Name");
         // Creating table column
-        TableColumn<Users, String> Username = new TableColumn<Users, String>("Username");
+        TableColumn<Users, String> Username = new TableColumn<Users, String>("Title");
         // Creating table column
         TableColumn<Users, String> Phone = new TableColumn<Users, String>("Phone");
         // Creating table column
@@ -132,8 +132,8 @@ public class AddUsers {
         // Creating a small stage
         Stage DialogStage = new Stage();
         // Declaring all the labels
-        Label FirstNameLabel = new Label("First Name");
-        Label LastNameLabel = new Label("Last Name");
+        Label FirstNameLabel = new Label("Full Name");
+        Label LastNameLabel = new Label("Title");
         Label UsernameLabel = new Label("Username");
         Label PhoneLabel = new Label("Phone");
         Label PasswordLabel = new Label("Password");
